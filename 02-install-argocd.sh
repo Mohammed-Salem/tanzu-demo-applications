@@ -58,4 +58,4 @@ pe "./argocd proj add-destination production ${PROD_CLUSTER_URL} ${PROD_DATA_NAM
 echo '----------------------------------------------'
 echo '      ArgoCD configured successfully!'
 echo '----------------------------------------------'
-echo '
+echo ''
