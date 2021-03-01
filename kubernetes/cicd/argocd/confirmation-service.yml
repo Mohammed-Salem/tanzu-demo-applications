@@ -8,7 +8,7 @@ spec:
     server: 'CLUSTER_URL'
     namespace: WORKLOAD_NAMESPACE
   source:
-    repoURL: 'https://github.com/Turbots/tanzu-demo-gitops'
+    repoURL: 'https://github.com/vmSalem/tanzu-demo-gitops'
     targetRevision: master
     path: 'ENVIRONMENT/confirmation-service'
   project: ENVIRONMENT

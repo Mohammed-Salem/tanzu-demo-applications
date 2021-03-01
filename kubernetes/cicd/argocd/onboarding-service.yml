@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: payment-service-ENVIRONMENT
+  name: onboarding-service-ENVIRONMENT
 spec:
   destination:
     server: 'CLUSTER_URL'
@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: 'https://github.com/vmSalem/tanzu-demo-gitops'
     targetRevision: master
-    path: 'ENVIRONMENT/payment-service'
+    path: 'ENVIRONMENT/onboarding'
   project: ENVIRONMENT
   syncPolicy:
     automated:
